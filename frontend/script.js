@@ -1,5 +1,4 @@
-const API = `${window.API_BASE_URL}/auth`;
-
+const API = `${API_BASE_URL}/auth`;
 // Signup
 async function signup() {
     const name = document.getElementById("name").value;
