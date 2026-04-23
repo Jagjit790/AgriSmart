@@ -30,7 +30,7 @@ app.use("/api", soilRoutes);
 
 // AUTH ROUTES
 const authRoutes = require("./backend/routes/authRoutes");
-app.use("/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 
 
 // weather routes
