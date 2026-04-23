@@ -34,7 +34,7 @@ async function login() {
         localStorage.setItem("token", data.token);
         alert("Login Successful");
 
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     } else {
         alert(data.message);
     }
