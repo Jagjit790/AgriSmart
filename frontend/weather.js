@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (localStorage.getItem("token")) {
       localStorage.removeItem("token");
       alert("Logged out");
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     } else {
       window.location.href = "login.html";
     }
