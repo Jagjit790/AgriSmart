@@ -1,4 +1,5 @@
 const API = `${window.API_BASE_URL}/auth`;
+console.log("BASE URL:", window.API_BASE_URL);
 // Signup
 async function signup() {
     const name = document.getElementById("name").value;
