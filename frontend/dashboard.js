@@ -51,7 +51,7 @@ function calculateRecommendations(item) {
 }
 
 function loadDashboard() {
-  fetch(`${window.API_BASE_URL}/soil`)   // ✅ FIXED
+  fetch("https://agrismart-6.onrender.com/api/soil")  // ✅ FIXED
     .then(res => res.json())
     .then(history => {
 
