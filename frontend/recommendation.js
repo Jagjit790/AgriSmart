@@ -77,7 +77,8 @@ if (!selectedId) {
 }
 
 // ✅ FETCH FROM BACKEND
-fetch(`${window.API_BASE_URL}/soil/${selectedId}`)
+  fetch(`https://agrismart-6.onrender.com/api/soil/${selectedId}`)
+
   .then(res => res.json())
   .then(data => {
 
