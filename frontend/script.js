@@ -1,4 +1,4 @@
-const API = `${window.API_BASE_URL}/auth`;
+const API = "https://agrismart-6.onrender.com/api/auth";
 console.log("BASE URL:", window.API_BASE_URL);
 // Signup
 async function signup() {
