@@ -99,7 +99,7 @@ function loadDashboard() {
 function deleteItem(e, id) {
   e.stopPropagation();
 
-  fetch(`${window.API_BASE_URL}/delete/${id}`, {  // ✅ FIXED
+  fetch(`https://agrismart-6.onrender.com/api/delete/${id}` {  // ✅ FIXED
     method: "DELETE"
   })
   .then(() => loadDashboard());
