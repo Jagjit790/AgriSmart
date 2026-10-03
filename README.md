@@ -39,8 +39,8 @@ A full-stack web application that helps farmers optimize fertilizer usage for be
    JWT_SECRET=your_jwt_secret
    ```
 
-4. Start the server:
-   ```bash   ```
+4. Go to backend and Start the server:
+   ```node server.js```
    
 5. Open `frontend/home.html` in your browser
 
